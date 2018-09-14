@@ -1,0 +1,11 @@
+namespace adamant.katas;
+
+using system.console;
+
+private write_lines(console: Console, lines: Iterator[string]) -> void
+{
+    foreach line in lines
+    {
+        console.write_line(line);
+    }
+}

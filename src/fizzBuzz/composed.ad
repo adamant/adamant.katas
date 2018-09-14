@@ -1,0 +1,16 @@
+namespace adamant.katas.fizzBuzz;
+
+using system.collections;
+
+public fizz_buzz_composed(up_to: uint) -> List[string]
+{
+    let lines = new List();
+    foreach n in 1..up_to
+    {
+        let test = \(d, s, x) => if n.remainder(d) == 0 => (fn _ => s + x("")) else => x;
+        let fizz = \(x) => test(3, "Fizz", x);
+        let buzz = \(x) => test(5, "Buzz", x);
+        lines.add(fizz(buzz(identity))(n.to_display_string()));
+    }
+    return lines;
+}

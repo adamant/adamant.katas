@@ -1,0 +1,22 @@
+namespace adamant.katas.fizzBuzz;
+
+using system.collections;
+
+public fizz_buzz_basic(up_to: uint) -> List[string]
+{
+    let lines = new List();
+    foreach n in 1..up_to
+    {
+        let fizz = n.remainder(3) == 0;
+        let buzz = n.remainder(5) == 0;
+        if fizz and buzz
+            { lines.add("FizzBuzz"); }
+        else if fizz
+            { lines.add("Fizz"); }
+        else if buzz
+            { lines.add("Buzz"); }
+        else
+            { lines.add(n.to_display_string()); }
+    }
+    return lines;
+}

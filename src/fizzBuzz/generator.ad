@@ -1,0 +1,21 @@
+namespace adamant.katas.fizzBuzz;
+
+using system.collections;
+
+public fizz_buzz_generator(up_to: uint) -> Iterator[string]
+{
+    foreach n in 1..up_to
+    {
+        let fizz = n.remainder(3) == 0;
+        let buzz = n.remainder(5) == 0;
+        if fizz and buzz
+            { yield "FizzBuzz"; }
+        else if fizz
+            { yield "Fizz"; }
+        else if buzz
+            { yield "Buzz"; }
+        else
+            { yield n.to_display_string(); }
+    }
+    return lines;
+}
