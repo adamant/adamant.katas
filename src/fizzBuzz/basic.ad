@@ -2,9 +2,9 @@ namespace adamant.katas.fizzBuzz;
 
 using system.collections;
 
-public fizz_buzz_basic(up_to: uint) -> List[string]
+public fn fizz_buzz_basic(up_to: uint) -> List[string]
 {
-    let lines = new List();
+    let lines = new List[string]();
     foreach n in 1..up_to
     {
         let fizz = n.remainder(3) == 0;
@@ -16,7 +16,7 @@ public fizz_buzz_basic(up_to: uint) -> List[string]
         else if buzz
             { lines.add("Buzz"); }
         else
-            { lines.add(n.to_display_string()); }
+            { lines.add(n.display_format()); }
     }
     return lines;
 }

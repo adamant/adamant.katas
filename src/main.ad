@@ -2,7 +2,7 @@ namespace adamant.katas;
 
 using system.console;
 
-public main(console: Console) -> void
+public fn main(console: Console) -> void
 {
     console.write_line("FizzBuzz (Basic):");
     write_lines(console, fizz_buzz_basic(100));

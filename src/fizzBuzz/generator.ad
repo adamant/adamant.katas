@@ -2,7 +2,7 @@
 
 // using system.collections;
 
-// public fizz_buzz_generator(up_to: uint) -> Iterator[string]
+// public fn fizz_buzz_generator(up_to: uint) -> Iterator[string]
 // {
 //     foreach n in 1..up_to
 //     {

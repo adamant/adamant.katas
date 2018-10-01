@@ -2,7 +2,7 @@
 
 // using system.collections;
 
-// public fizz_buzz_composed(up_to: uint) -> List[string]
+// public fn fizz_buzz_composed(up_to: uint) -> List[string]
 // {
 //     let lines = new List();
 //     foreach n in 1..up_to

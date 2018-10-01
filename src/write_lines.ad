@@ -2,7 +2,7 @@ namespace adamant.katas;
 
 using system.console;
 
-private write_lines(console: Console, lines: Iterator[string]) -> void
+private fn write_lines(console: Console, lines: Iterator[string]) -> void
 {
     foreach line in lines
     {
