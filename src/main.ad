@@ -1,6 +1,7 @@
 namespace adamant.katas;
 
 using system.console;
+using adamant.katas.fizzBuzz;
 
 public fn main(console: Console) -> void
 {

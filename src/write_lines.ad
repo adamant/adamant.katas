@@ -1,5 +1,6 @@
 namespace adamant.katas;
 
+using system;
 using system.console;
 
 private fn write_lines(console: Console, lines: Iterator[string]) -> void
