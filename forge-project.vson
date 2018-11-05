@@ -1,5 +1,9 @@
 {
     "name": "katas",
     "authors": ["Jeff Walker Code Ranger"],
-    "template": "app"
+    "template": "app",
+    "dependencies":
+    {
+        "stdlib": { "path": "../stdlib", "trusted": true }
+    }
 }
