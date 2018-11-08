@@ -4,6 +4,6 @@
     "template": "app",
     "dependencies":
     {
-        "stdlib": { "path": "../stdlib", "trusted": true }
+        "adamant.stdlib": { "path": "../stdlib", "trusted": true }
     }
 }
