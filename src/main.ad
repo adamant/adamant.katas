@@ -6,7 +6,7 @@ using adamant.katas.fizzBuzz;
 public fn main(console: Console) -> void
 {
     console.write_line("FizzBuzz (Minimal):");
-    fizz_buzz_basic(100, console);
+    fizz_buzz_minimal(100, console);
     console.write_line();
 
     // console.write_line("FizzBuzz (Basic):");
