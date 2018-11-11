@@ -1,5 +1,3 @@
-// namespace adamant.katas.fizzBuzz;
-
 // using system.collections;
 
 // public fn fizz_buzz_generator(up_to: uint) -> Iterator[string]
