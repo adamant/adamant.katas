@@ -1,7 +1,7 @@
 using system.console;
 using adamant.katas.fizzBuzz;
 
-public fn main(console: Console) -> void
+public fn main(console: Console)
 {
     console.write_line("FizzBuzz (Minimal):");
     fizz_buzz_minimal(100, console);
