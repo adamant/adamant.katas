@@ -1,5 +1,5 @@
 using system.console;
-using adamant.katas.fizzBuzz;
+using adamant.katas.fizz_buzz;
 
 public fn main(console: Console)
 {
