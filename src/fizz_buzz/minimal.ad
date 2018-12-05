@@ -16,7 +16,7 @@ public fn fizz_buzz_minimal(up_to: uint, console: Console)
         else if buzz
             { console.write_line("Buzz"); }
         else
-            { console.write_line(n.display_format()); }
+            { console.write_line(n.to_display_string()); }
 
         n += 1;
         if n > up_to => break;
