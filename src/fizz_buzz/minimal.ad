@@ -10,13 +10,13 @@ public fn fizz_buzz_minimal(up_to: uint, console: Console)
         let fizz = n.remainder(3) == 0;
         let buzz = n.remainder(5) == 0;
         if fizz and buzz
-            { console.write_line("FizzBuzz"); }
+            { write_line("FizzBuzz"); }
         else if fizz
-            { console.write_line("Fizz"); }
+            { write_line("Fizz"); }
         else if buzz
-            { console.write_line("Buzz"); }
+            { write_line("Buzz"); }
         else
-            { console.write_line(n.to_display_string()); }
+            { write_line(n.to_display_string()); }
 
         n += 1;
         if n > up_to => break;
