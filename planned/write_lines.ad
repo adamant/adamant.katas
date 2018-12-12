@@ -1,10 +1,10 @@
-// using system;
-// using system.console;
+using system;
+using system.console;
 
-// private fn write_lines(console: Console, lines: Iterator[string]) -> void
-// {
-//     foreach line in lines
-//     {
-//         console.write_line(line);
-//     }
-// }
+private fn write_lines(console: Console, lines: Iterator[string]) -> void
+{
+    foreach line in lines
+    {
+        console.write_line(line);
+    }
+}
