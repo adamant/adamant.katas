@@ -1,5 +1,3 @@
-using system.console;
-
 /// This minimal version of fizz buzz was designed to use as few language and
 /// standard library features as possible to make compiling it as easy as possible.
 public fn fizz_buzz_minimal(up_to: uint, console: Console)

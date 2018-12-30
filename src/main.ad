@@ -1,6 +1,3 @@
-using system.console;
-using adamant.katas.fizz_buzz;
-
 public fn main(console: Console)
 {
     write_line("FizzBuzz (Minimal):");
