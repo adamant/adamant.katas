@@ -1,7 +1,7 @@
 {
     "name": "katas",
     "root_namespace": "adamant.katas",
-    "authors": ["Jeff Walker Code Ranger"],
+    "authors": ["Jeff Walker"],
     "template": "app",
     "dependencies":
     {
